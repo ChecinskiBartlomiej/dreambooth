@@ -177,16 +177,6 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
 ### byn plushy monkey as an astronaut walking on the surface of Mars, red rocks and dust, photorealistic render
 
 <table>
