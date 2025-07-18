@@ -24,6 +24,30 @@ Because of that, I was not able to train it on my laptop because my GPU has only
 
 Below, I post images which I liked the most and corresponding prompts, these are cherry picked examples, I rejected most of images.
 
+### byn plushy monkey exploring a futuristic space station interior, neon lights, cyberpunk vibe
+
+<table>
+  <tr>
+    <td><img src="data/cropped/best/2/10.jpg" width="160"></td>
+  </tr>
+</table>
+
+### byn plushy monkey discovering a treasure at the bottom of the ocean, shafts of sunlight and shimmering seashells
+
+<table>
+  <tr>
+    <td><img src="data/cropped/best/3/4.jpg" width="160"></td>
+  </tr>
+</table>
+
+### byn plushy monkey in ancient Mayan temple ruins overgrown with lush greenery, epic adventure feel
 
 
+<table>
+  <tr>
+    <td><img src="data/cropped/best/4/1.jpg" width="160"></td>
+    <td><img src="data/cropped/best/4/4.jpg" width="160"></td>
+    <td><img src="data/cropped/best/4/9.jpg" width="160"></td>
+  </tr>
+</table>
 
