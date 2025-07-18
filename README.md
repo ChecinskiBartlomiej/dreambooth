@@ -132,11 +132,46 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-###
+### byn plushy monkey enjoying a sunset at an amusement park, carousel lights and dreamy bokeh
 
 <table>
   <tr>
-    <td><img src="best/3/4.png" width="160"></td>
+    <td><img src="best/16/1.png" width="160"></td>
+    <td><img src="best/16/2.png" width="160"></td>
+    <td><img src="best/16/6.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey as a knight on horseback at a medieval castle, epic fantasy digital art style
+
+<table>
+  <tr>
+    <td><img src="best/18/1.png" width="160"></td>
+    <td><img src="best/18/10.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey standing on a desert dune under a rising moon, dramatic shadows, minimalist composition
+
+<table>
+  <tr>
+    <td><img src="best/19/1.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey as a DJ in a techno club, pulsing lasers and dynamic crowd shot
+
+<table>
+  <tr>
+    <td><img src="best/21/1.png" width="160"></td>
+    <td><img src="best/21/5.png" width="160"></td>
+    <td><img src="best/21/9.png" width="160"></td>
   </tr>
 </table>
 
@@ -152,95 +187,16 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-###
+### byn plushy monkey as an astronaut walking on the surface of Mars, red rocks and dust, photorealistic render
 
 <table>
   <tr>
-    <td><img src="best/3/4.png" width="160"></td>
+    <td><img src="best/24/2.png" width="160"></td>
+    <td><img src="best/24/4.png" width="160"></td>
   </tr>
 </table>
 
 ---
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-###
-
-<table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
-</table>
-
----
-
 
 
 
