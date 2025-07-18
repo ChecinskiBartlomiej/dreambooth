@@ -1,6 +1,7 @@
-I implement dreambooth https://arxiv.org/abs/2208.12242 using a plushy monkey as my subject. Text to image diffusion model fine-tuned using dreambooth technique enables generating various novel photorealistic images of the subject contextualized in different scenes.
+I implemented [DreamBooth](https://arxiv.org/abs/2208.12242), using a plush monkey as the subject.  
+Fine‑tuning a text‑to‑image diffusion model with DreamBooth lets me generate novel, photorealistic pictures of the monkey in a wide range of scenes.
 
-I prepared dataset consisting of 6 images of a plushy monkey and cropped them to 512x512 resolution. This can be seen in data directory.
+The dataset contains six 512 × 512 crops of the plush monkey (see the `data/` directory).
 
 <table>
   <tr>
@@ -15,69 +16,58 @@ I prepared dataset consisting of 6 images of a plushy monkey and cropped them to
   </tr>
 </table>
 
+I trained with the `train_dreambooth.py` script from 🤗 Diffusers  
+(<https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/train_dreambooth.py>)  
+using **Stable Diffusion v1‑5** as the base model.
 
-I use train_dreambooth.py script from diffusers library: https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/train_dreambooth.py
+The CLIP text encoder was fine‑tuned to embed a new token **“byn”** – the name I gave the plush monkey.  
+Because “byn” is a single token in the tokenizer, it works well for DreamBooth.
 
-I use stable diffusion v1-5 as a base model. I fine tune CLIP-based text encoder to embedd new token "byn" which is a name of a plushy monkey I came up with. It is one token in tokenizer I use which is desired in dreambooth.
+Training would not fit into my laptop‑GPU (8 GB VRAM), so I ran the job on the ICM supercomputer  
+(<https://kdm.icm.edu.pl>).
 
-Because of that, I was not able to train it on my laptop because my GPU has only 8 VRAM which is not enough. I used ICM's supercomputer https://kdm.icm.edu.pl.
+Below are my favourite generations and their prompts (cherry‑picked – most images were discarded).
 
-Below, I post images which I liked the most and corresponding prompts, these are cherry picked examples, I rejected most of images.
+### byn plush monkey exploring a futuristic space‑station interior, neon lights, cyberpunk vibe
+<table>
+  <tr><td><img src="best/2/10.png" width="160"></td></tr>
+</table>
 
-### byn plushy monkey exploring a futuristic space station interior, neon lights, cyberpunk vibe
+---
 
+### byn plush monkey discovering treasure on the ocean floor, shafts of sunlight, shimmering seashells
+<table>
+  <tr><td><img src="best/3/4.png" width="160"></td></tr>
+</table>
+
+---
+
+### byn plush monkey in overgrown Mayan temple ruins, epic adventure feel
 <table>
   <tr>
-    <td><img src="best/2/10.png" width="160"></td>
+    <td><img src="best/4/1.png"  width="160"></td>
+    <td><img src="best/4/4.png"  width="160"></td>
+    <td><img src="best/4/9.png"  width="160"></td>
   </tr>
 </table>
 
 ---
 
-### byn plushy monkey discovering a treasure at the bottom of the ocean, shafts of sunlight and shimmering seashells
-
+### byn plush monkey having tea in a Victorian parlour, elegant porcelain cups, warm lamplight
 <table>
-  <tr>
-    <td><img src="best/3/4.png" width="160"></td>
-  </tr>
+  <tr><td><img src="best/5/9.png" width="160"></td></tr>
 </table>
 
 ---
 
-### byn plushy monkey in ancient Mayan temple ruins overgrown with lush greenery, epic adventure feel
-
+### byn plush monkey dressed as a pirate on deck, billowing sails and crashing waves, comic‑book style
 <table>
-  <tr>
-    <td><img src="best/4/1.png" width="160"></td>
-    <td><img src="best/4/4.png" width="160"></td>
-    <td><img src="best/4/9.png" width="160"></td>
-  </tr>
+  <tr><td><img src="best/6/8.png" width="160"></td></tr>
 </table>
 
 ---
 
-### byn plushy monkey having tea in a Victorian parlor, elegant porcelain cups, warm lamplight
-
-<table>
-  <tr>
-    <td><img src="best/5/9.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-### byn plushy monkey dressed as a pirate on deck, sails billowing and waves crashing, comic‑book illustration style
-
-<table>
-  <tr>
-    <td><img src="best/6/8.png" width="160"></td>
-  </tr>
-</table>
-
----
-
-### byn plushy monkey dancing at a masked ball in a Baroque ballroom, ornate decorations and crystal chandeliers
-
+### byn plush monkey dancing at a masked ball in a Baroque ballroom, ornate décor, crystal chandeliers
 <table>
   <tr>
     <td><img src="best/7/6.png" width="160"></td>
@@ -87,30 +77,25 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-### byn plushy monkey tagging graffiti on a city street at night, colorful murals and lamppost glow
-
+### byn plush monkey tagging graffiti on a city street at night, colourful murals, lamppost glow
 <table>
-  <tr>
-    <td><img src="best/8/1.png" width="160"></td>
-  </tr>
+  <tr><td><img src="best/8/1.png" width="160"></td></tr>
 </table>
 
 ---
 
-### byn plushy monkey cooking in a professional restaurant kitchen, steam rising from pots, documentary‑style realism
-
+### byn plush monkey cooking in a professional kitchen, steam rising from pots, documentary realism
 <table>
   <tr>
-    <td><img src="best/10/3.png" width="160"></td>
-    <td><img src="best/10/7.png" width="160"></td>
+    <td><img src="best/10/3.png"  width="160"></td>
+    <td><img src="best/10/7.png"  width="160"></td>
     <td><img src="best/10/10.png" width="160"></td>
   </tr>
 </table>
 
 ---
 
-### byn plushy monkey trekking across snow‑capped mountains, bright sunlight, wide‑angle landscape shot
-
+### byn plush monkey trekking across snow‑capped mountains, bright sunlight, wide‑angle landscape
 <table>
   <tr>
     <td><img src="best/11/7.png" width="160"></td>
@@ -121,19 +106,17 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-### byn plushy monkey sitting on a stone pier by a misty lake at dawn, serene and peaceful mood
-
+### byn plush monkey sitting on a stone pier by a misty lake at dawn, serene mood
 <table>
   <tr>
-    <td><img src="best/12/8.png" width="160"></td>
+    <td><img src="best/12/8.png"  width="160"></td>
     <td><img src="best/12/10.png" width="160"></td>
   </tr>
 </table>
 
 ---
 
-### byn plushy monkey enjoying a sunset at an amusement park, carousel lights and dreamy bokeh
-
+### byn plush monkey enjoying a sunset at an amusement park, carousel lights, dreamy bokeh
 <table>
   <tr>
     <td><img src="best/16/1.png" width="160"></td>
@@ -144,29 +127,24 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-### byn plushy monkey as a knight on horseback at a medieval castle, epic fantasy digital art style
-
+### byn plush monkey as a knight on horseback outside a medieval castle, epic fantasy art
 <table>
   <tr>
-    <td><img src="best/18/1.png" width="160"></td>
+    <td><img src="best/18/1.png"  width="160"></td>
     <td><img src="best/18/10.png" width="160"></td>
   </tr>
 </table>
 
 ---
 
-### byn plushy monkey standing on a desert dune under a rising moon, dramatic shadows, minimalist composition
-
+### byn plush monkey standing on a desert dune beneath a rising moon, dramatic shadows, minimalist
 <table>
-  <tr>
-    <td><img src="best/19/1.png" width="160"></td>
-  </tr>
+  <tr><td><img src="best/19/1.png" width="160"></td></tr>
 </table>
 
 ---
 
-### byn plushy monkey as a DJ in a techno club, pulsing lasers and dynamic crowd shot
-
+### byn plush monkey DJ‑ing in a techno club, pulsing lasers, dynamic crowd shot
 <table>
   <tr>
     <td><img src="best/21/1.png" width="160"></td>
@@ -177,16 +155,10 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 ---
 
-### byn plushy monkey as an astronaut walking on the surface of Mars, red rocks and dust, photorealistic render
-
+### byn plush monkey walking on Mars in an astronaut suit, red rocks and dust, photorealistic render
 <table>
   <tr>
     <td><img src="best/24/2.png" width="160"></td>
     <td><img src="best/24/4.png" width="160"></td>
   </tr>
 </table>
-
----
-
-
-
