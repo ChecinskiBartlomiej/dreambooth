@@ -2,12 +2,18 @@ I implement dreambooth https://arxiv.org/abs/2208.12242 using a plushy monkey as
 
 I prepared dataset consisting of 6 images of a plushy monkey and cropped them to 512x512 resolution. This can be seen in data directory.
 
-![Opis alternatywny obrazka](data/cropped/monke1.jpg)
-![Opis alternatywny obrazka](data/cropped/monke2.jpg)
-![Opis alternatywny obrazka](data/cropped/monke3.jpg)
-![Opis alternatywny obrazka](data/cropped/monke4.jpg)
-![Opis alternatywny obrazka](data/cropped/monke5.jpg)
-![Opis alternatywny obrazka](data/cropped/monke6.jpg)
+<table>
+  <tr>
+    <td><img src="data/cropped/monke1.jpg" width="160"/></td>
+    <td><img src="data/cropped/monke2.jpg" width="160"/></td>
+    <td><img src="data/cropped/monke3.jpg" width="160"/></td>
+  </tr>
+  <tr>
+    <td><img src="data/cropped/monke4.jpg" width="160"/></td>
+    <td><img src="data/cropped/monke5.jpg" width="160"/></td>
+    <td><img src="data/cropped/monke6.jpg" width="160"/></td>
+  </tr>
+</table>
 
 
 I use train_dreambooth.py script from diffusers library: https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/train_dreambooth.py
