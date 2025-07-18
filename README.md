@@ -54,4 +54,193 @@ Below, I post images which I liked the most and corresponding prompts, these are
   </tr>
 </table>
 
+---
+
+### byn plushy monkey having tea in a Victorian parlor, elegant porcelain cups, warm lamplight
+
+<table>
+  <tr>
+    <td><img src="best/5/9.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey dressed as a pirate on deck, sails billowing and waves crashing, comic‑book illustration style
+
+<table>
+  <tr>
+    <td><img src="best/6/8.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey dancing at a masked ball in a Baroque ballroom, ornate decorations and crystal chandeliers
+
+<table>
+  <tr>
+    <td><img src="best/7/6.png" width="160"></td>
+    <td><img src="best/7/9.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey tagging graffiti on a city street at night, colorful murals and lamppost glow
+
+<table>
+  <tr>
+    <td><img src="best/8/1.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey cooking in a professional restaurant kitchen, steam rising from pots, documentary‑style realism
+
+<table>
+  <tr>
+    <td><img src="best/10/3.png" width="160"></td>
+    <td><img src="best/10/7.png" width="160"></td>
+    <td><img src="best/10/10.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey trekking across snow‑capped mountains, bright sunlight, wide‑angle landscape shot
+
+<table>
+  <tr>
+    <td><img src="best/11/7.png" width="160"></td>
+    <td><img src="best/11/8.png" width="160"></td>
+    <td><img src="best/11/9.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+### byn plushy monkey sitting on a stone pier by a misty lake at dawn, serene and peaceful mood
+
+<table>
+  <tr>
+    <td><img src="best/12/8.png" width="160"></td>
+    <td><img src="best/12/10.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+###
+
+<table>
+  <tr>
+    <td><img src="best/3/4.png" width="160"></td>
+  </tr>
+</table>
+
+---
+
+
+
 
