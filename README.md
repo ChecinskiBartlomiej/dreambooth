@@ -48,9 +48,9 @@ Below, I post images which I liked the most and corresponding prompts, these are
 
 <table>
   <tr>
-    <td><img src="data/cropped/best/4/1.jpg" width="160"></td>
-    <td><img src="data/cropped/best/4/4.jpg" width="160"></td>
-    <td><img src="data/cropped/best/4/9.jpg" width="160"></td>
+    <td><img src="best/4/1.jpg" width="160"></td>
+    <td><img src="best/4/4.jpg" width="160"></td>
+    <td><img src="best/4/9.jpg" width="160"></td>
   </tr>
 </table>
 
