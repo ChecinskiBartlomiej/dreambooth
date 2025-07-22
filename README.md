@@ -19,7 +19,7 @@ I use train_dreambooth.py script from diffusers library: https://github.com/hugg
 
 I use stable diffusion v1-5 as a base model. I fine tune CLIP-based text encoder to embedd new token "byn" which is a name of a plushy monkey I came up with. It is one token in tokenizer I use, which is desired in dreambooth.
 
-Because of that, I was not able to train it on my laptop since my GPU has only 8 VRAM which is not enough. I used ICM's supercomputer https://kdm.icm.edu.pl.
+Because of that, I was not able to train it on my laptop since my GPU has only 8GB VRAM which is not enough. I used ICM's supercomputer https://kdm.icm.edu.pl.
 
 Below, I post images which I liked the most and their corresponding prompts, these are cherry picked examples, I rejected most of the images.
 
